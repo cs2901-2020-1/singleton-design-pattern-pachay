@@ -8,7 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
         BasicConfigurator.configure();
+        log.debug("Pucha probando pes");
 
-        log.debug("Hola");
+        ChocolateBoiler cb1 = new ChocolateBoiler();
+        ChocolateBoilerTest cbt1 = new ChocolateBoilerTest();
+
     }
 }
